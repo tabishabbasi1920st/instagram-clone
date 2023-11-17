@@ -1,0 +1,73 @@
+.search-page-container {
+  /* border: 2px solid blue; */
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-initial-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid red; */
+  flex-grow: 1;
+}
+
+.search-result-appear-here-text {
+  font-family: Roboto;
+  font-size: 1.7em;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: -0.009999999776482582px;
+  text-align: center;
+}
+
+.search-loader-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lens-img {
+  margin-bottom: 10px;
+  height: 45px;
+  width: 45px;
+}
+
+.brightness {
+  filter: brightness(10);
+}
+
+.no-search-found-img-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.no-search-found-img {
+  height: 225px;
+  width: 250px;
+}
+
+.search-not-found-text {
+  margin-top: 10px;
+  font-family: Roboto;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.try-different-keyword-text {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+}

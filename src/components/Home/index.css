@@ -1,0 +1,19 @@
+.home-main-container {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .home-main-container {
+    padding-left: 12%;
+    padding-right: 12%;
+  }
+}
+
+.user-stories-and-post-container{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}

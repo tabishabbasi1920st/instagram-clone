@@ -1,0 +1,108 @@
+.post-item {
+  width: 100%;
+  margin-bottom:10px;
+}
+
+.username-and-dp-container {
+  /* border: 2px solid green; */
+  height: 80px;
+  width: 100%;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.post-dp {
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.post-username {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.10000000149011612px;
+  text-align: left;
+}
+
+.post-img-container {
+  /* border: 2px solid red; */
+}
+
+.post-img {
+  width: 100%;
+}
+
+.post-details-container {
+  /* border: 2px solid pink; */
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.interactive-btns-container {
+  height: 50px;
+  width: 100%;
+  /* border: 2px solid green; */
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.interactive-btns {
+  height: 45px;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.post-likes-count {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: -0.07000000029802322px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.post-caption {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: -0.07000000029802322px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.comments-container {
+  /* border: 2px solid yellow; */
+}
+
+.comment-item {
+  margin-bottom: 8px;
+}
+
+.username-span {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.post-created-at {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0.05000000074505806px;
+  text-align: left;
+  color:#989898;
+}

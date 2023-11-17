@@ -1,0 +1,42 @@
+.not-found-main-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.page-not-found-txt {
+  font-family: Roboto;
+  font-size: 22px;
+  margin-top: 15px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #262626;
+  margin-bottom:10px;
+}
+
+.route-not-found-txt {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #989898;
+}
+
+.home-page-btn{
+  background-color: #4094EF;
+  height:40px;
+  width:120px;
+  border:none;
+  color:#ffffff;
+  border-radius: 5px;
+  margin-top: 20px;;
+  font-weight: 500;
+}

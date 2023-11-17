@@ -1,0 +1,32 @@
+.slick-main-container {
+  min-height: 165px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  width:100%;
+  /* border:2px solid red; */
+}
+.story-item {
+  max-height: 120px;
+  max-width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  overflow-wrap: break-word;
+  outline: none;
+  cursor: pointer;
+}
+
+.story-img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.story-username {
+  text-align: center;
+  margin-top: 5px;
+}
