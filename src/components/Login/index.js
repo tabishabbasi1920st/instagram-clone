@@ -15,8 +15,8 @@ export default function Login() {
 
   // Login form data.
   const [formData, setFormData] = useState({
-    username: "",
-    password: "",
+    username: "rahul",
+    password: "rahul@2021",
   });
 
   // Login error message.
@@ -56,9 +56,8 @@ export default function Login() {
           className="login-website-logo"
         />
         <h1
-          className={`login-insta-share-heading ${
-            dark ? "light-text" : "dark-text"
-          }`}
+          className={`login-insta-share-heading ${dark ? "light-text" : "dark-text"
+            }`}
         >
           Insta Share
         </h1>
@@ -88,6 +87,7 @@ export default function Login() {
           USERNAME
         </label>
         <input
+          value={formData.username}
           title="Please Enter you Username"
           placeholder="Username"
           id="loginUsername"
@@ -111,6 +111,7 @@ export default function Login() {
           PASSWORD
         </label>
         <input
+          value={formData.password}
           title="Please Enter Your Password"
           placeholder="Password"
           id="loginPassword"
